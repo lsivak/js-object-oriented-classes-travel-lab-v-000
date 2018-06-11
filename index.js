@@ -2,7 +2,7 @@ class Driver {
   constructor(name) {
     this.name = name
   }
-  startDate() {
-    return getDate() + getMonth() + getFullYear()
+  startDate(date) {
+    return date.getDate() + date.getMonth() + date.getFullYear()
   }
 }
