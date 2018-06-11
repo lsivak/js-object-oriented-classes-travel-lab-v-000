@@ -4,6 +4,6 @@ class Driver {
     this.date = date
   }
   startDate(date) {
-    return date.getDate() + date.getMonth() + date.getFullYear()
+    return date.dateFormat("mm dd, yyyy")
   }
 }
