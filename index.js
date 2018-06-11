@@ -3,6 +3,6 @@ class Driver {
     this.name = name
   }
   startDate() {
-    return Date()
+    return getDate()
   }
 }
