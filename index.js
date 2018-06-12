@@ -24,7 +24,7 @@ return eastWest.indexOf(avenue)
 
 blocksTravelled() {
     debugger
-  let numStreet =  this.endingLocation.vertical - this.beginningLocation.vertical
+  let numStreet =  (this.endingLocation.vertical) - (this.beginningLocation.vertical)
   let numAve = aveToIndex(this.endingLocation.horizontal) - aveToIndex(this.beginningLocation.horizontal)
   return numAve + numstreet
     }
