@@ -30,3 +30,11 @@ blocksTravelled() {
   return horizontalNum + verticalNum
     }
 }
+
+estimatedTime() {
+  let peakTravel = blocksTravelled * 2
+  let nonPeakTravel = blocksTravelled *3
+  return peakTravel
+  return nonPeakTravel
+}
+}
