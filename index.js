@@ -19,9 +19,10 @@ let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'P
 
 blocksTravelled() = {
   let numStreet =  this.endingLocation[0] - this.beginningLocation[0]
-  let startAvenue = eastWest.indexof(this.beginningLocation[1]) 
-  let endAvenue = eastWest.indexof(this.endingLocation[1]) 
+  debugger
+  let startAvenue = eastWest.indexof(this.beginningLocation[1])
+  debugger
+  let endAvenue = eastWest.indexof(this.endingLocation[1])
+  debugger
   return (endAvenue - startAvenue) + numstreet
     }
-
-
