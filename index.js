@@ -11,7 +11,7 @@ yearsExperienceFromBeginningOf(year) {
 }
 
 class Route {
-  constructor(beginningLocation, endingLocation){
+  constructor(beginningLocation, endingLocation) {
       this.beginningLocation = beginningLocation
       this.endingLocation = endingLocation
   }
