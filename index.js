@@ -20,7 +20,7 @@ class Route {
 blocksTravelled() {
   let numStreet =  this.endingLocation.horizontal - this.beginningLocation.horizontal
   debugger
-  let startAvenue = eastWest.indexof(this.beginningLocation.vertical])
+  let startAvenue = eastWest.indexof(this.beginningLocation.vertical)
   debugger
   let endAvenue = eastWest.indexof(this.endingLocation.vertical)
   debugger
