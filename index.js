@@ -17,7 +17,7 @@ class Route {
   }
 
 
-blocksTravelled() = {
+blocksTravelled() {
   let numStreet =  this.endingLocation[0] - this.beginningLocation[0]
   debugger
   let startAvenue = eastWest.indexof(this.beginningLocation[1])
