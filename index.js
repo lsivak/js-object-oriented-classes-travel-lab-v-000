@@ -26,3 +26,4 @@ blocksTravelled() {
   debugger
   return (endAvenue - startAvenue) + numstreet
     }
+}
