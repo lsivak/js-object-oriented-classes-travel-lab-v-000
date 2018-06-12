@@ -18,11 +18,11 @@ class Route {
 
 
 blocksTravelled() {
-  let numStreet =  this.endingLocation.horizontal - this.beginningLocation.horizontal
+  let numStreet =  this.endingLocation.vertical - this.beginningLocation.vertical
   debugger
-  let startAvenue = eastWest.indexof(this.beginningLocation.vertical)
+  let startAvenue = eastWest.indexof(this.beginningLocation.horizontal)
   debugger
-  let endAvenue = eastWest.indexof(this.endingLocation.vertical)
+  let endAvenue = eastWest.indexof(this.endingLocation.horizontal)
   debugger
   return (endAvenue - startAvenue) + numstreet
     }
