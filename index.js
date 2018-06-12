@@ -31,7 +31,7 @@ blocksTravelled() {
 estimatedTime(peakTravel) {
   if(peakTravel)
   return this.blocksTravelled()/ 2
-  else 
+  else
   return this.blocksTravelled()/3
 
 }
