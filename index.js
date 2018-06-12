@@ -29,8 +29,8 @@ blocksTravelled() {
     }
 
 estimatedTime() {
-  let peakTravel = blocksTravelled() * 2
-  let nonPeakTravel = blocksTravelled() *3
+  let peakTravel = blocksTravelled()/ 2
+  let nonPeakTravel = blocksTravelled()/3
   return peakTravel
   return nonPeakTravel
 }
