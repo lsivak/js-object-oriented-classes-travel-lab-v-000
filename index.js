@@ -16,12 +16,14 @@ class Route {
       this.endingLocation = endingLocation
   }
 
+aveToIndex(this.beginningLocation.horizontal, this.endingLocation.horizontal) {
+     let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+    return (eastWest.indexof(this.endingLocation.horizontal) - eastWest.indexof(this.beginningLocation.horizontal))
+}
 
 blocksTravelled() {
-  let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
   let numStreet =  this.endingLocation.vertical - this.beginningLocation.vertical
-  let startAvenue = eastWest.indexof(this.beginningLocation.horizontal)
-  let endAvenue = eastWest.indexof(this.endingLocation.horizontal)
-  return (endAvenue - startAvenue) + numstreet
+
+  return aveToIndex() + numstreet
     }
 }
