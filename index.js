@@ -18,7 +18,7 @@ class Route {
       this.endingLocation = endingLocation
   }
 
-aveToIndex(beginningLocation, endingLocation) {
+aveToIndex(this.beginningLocation, this.endingLocation) {
        debugger
     let numAve = (eastWest.indexof(this.endingLocation.horizontal) - eastWest.indexof(this.beginningLocation.horizontal))
     debugger
