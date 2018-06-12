@@ -5,7 +5,7 @@ class Driver {
   }
 yearsExperienceFromBeginningOf(year) {
   debugger
-  let endDate = year
+  let endDate = new Date(year, 1)
   let years = endDate - this.startdate
   debugger
   return years
