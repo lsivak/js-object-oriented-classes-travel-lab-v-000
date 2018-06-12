@@ -29,7 +29,6 @@ blocksTravelled() {
 
   return horizontalNum + verticalNum
     }
-}
 
 estimatedTime() {
   let peakTravel = blocksTravelled * 2
