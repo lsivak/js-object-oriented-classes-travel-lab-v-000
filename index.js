@@ -19,16 +19,13 @@ class Route {
   }
 
 aveToIndex(avenue) {
-       debugger
-    let numAve = (eastWest.indexof(avenue) - eastWest.indexof(avenue))
-    debugger
-    return numAve
+return eastWest.indexOf(avenue)
 }
 
 blocksTravelled() {
     debugger
   let numStreet =  this.endingLocation.vertical - this.beginningLocation.vertical
-
-  return aveToIndex + numstreet
+  let numAve = aveToIndex(this.endingLocation.horizontal) - aveToIndex(this.beginningLocation.horizontal)
+  return numAve + numstreet
     }
 }
