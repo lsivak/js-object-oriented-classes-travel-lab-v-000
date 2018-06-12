@@ -19,7 +19,6 @@ class Route {
 aveToIndex(beginningLocation, endingLocation) {
      let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
     return (eastWest.indexof(this.endingLocation.horizontal) - eastWest.indexof(this.beginningLocation.horizontal))
-    debugger
 }
 
 blocksTravelled() {
