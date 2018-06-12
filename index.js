@@ -24,6 +24,6 @@ aveToIndex(beginningLocation, endingLocation) {
 blocksTravelled() {
   let numStreet =  this.endingLocation.vertical - this.beginningLocation.vertical
 
-  return aveToIndex(beginningLocation, endingLocation) + numstreet
+  return aveToIndex + numstreet
     }
 }
