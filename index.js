@@ -16,16 +16,12 @@ class Route {
       this.endingLocation = endingLocation
   }
 let eastWest = ['1st Avenue', '2nd Avenue', '3rd Avenue', 'Lexington Avenue', 'Park', 'Madison Avenue', '5th Avenue']
+
 blocksTravelled() = {
   let numStreet =  this.endingLocation[0] - this.beginningLocation[0]
-  let numAvenue = function (eastwest) {
-    eastWest.forEach(function (crossStreet) {
-      if(eastWest.crossStreet === this.endingLocation[1])
-      return eastWest.index
-      if(eastWest.crossStreet === this.beginningLocation[1])
-      return eastWest.index
+  let startAvenue = eastWest.indexof(this.beginningLocation[1]) 
+  let endAvenue = eastWest.indexof(this.endingLocation[1]) 
+  return (endAvenue - startAvenue) + numstreet
     }
-    
-  }
-  }
-}
+
+
